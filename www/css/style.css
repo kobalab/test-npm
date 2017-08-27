@@ -1,0 +1,15 @@
+body {
+    background:  white;
+    color:       black;
+    font-family: verdana, sans-serif;
+}
+:lang(ja) body {
+    background:  navy;
+    color:       white;
+    font-family: YuMincho, serif;
+}
+:lang(zh) body {
+    background:  red;
+    color:       yellow;
+    font-family: STKaiti, serif;
+}
