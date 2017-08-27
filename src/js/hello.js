@@ -1,4 +1,4 @@
-var Hello = function(lang) {
+Hello = function(lang) {
 
     function getlanguage(lang) {
         if (!lang) return;
