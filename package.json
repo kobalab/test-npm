@@ -4,7 +4,8 @@
   "description": "フロントエンドアプリをNode対応にする手順",
   "main": "hello-en.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "webpack src/js/hello.js src/js/hello/*.js www/js/hello.js"
   },
   "repository": {
     "type": "git",
