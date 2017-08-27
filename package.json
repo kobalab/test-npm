@@ -1,0 +1,19 @@
+{
+  "name": "test-npm",
+  "version": "1.0.0",
+  "description": "フロントエンドアプリをNode対応にする手順",
+  "main": "hello-en.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kobalab/test-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kobalab/test-npm/issues"
+  },
+  "homepage": "https://github.com/kobalab/test-npm#readme"
+}
