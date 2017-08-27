@@ -5,7 +5,7 @@
   "main": "hello-en.js",
   "scripts": {
     "test": "mocha",
-    "build": "webpack src/js/hello.js src/js/hello/*.js www/js/hello.js"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
