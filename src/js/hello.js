@@ -1,3 +1,7 @@
+var En = require('./hello/en.js');
+var Ja = require('./hello/ja.js');
+var Zh = require('./hello/zh.js');
+
 var Hello = function(lang) {
 
     function getlanguage(lang) {
@@ -7,7 +11,9 @@ var Hello = function(lang) {
     
     lang = getlanguage(lang);
     
-    return lang == 'ja' ? new Hello.Ja()
-         : lang == 'zh' ? new Hello.Zh()
-         :                new Hello.En();
+    return lang == 'ja' ? new Ja()
+         : lang == 'zh' ? new Zh()
+         :                new En();
 }
+
+module.exports = Hello;

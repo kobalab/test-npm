@@ -1,7 +1,9 @@
-Hello.En = function() {
+var En = function() {
     this._greeting = 'Hello, world!';
 }
 
-Hello.En.prototype.say = function() {
+En.prototype.say = function() {
     return this._greeting;
 }
+
+module.exports = En;

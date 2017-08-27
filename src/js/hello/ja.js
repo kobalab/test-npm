@@ -1,6 +1,10 @@
-Hello.Ja = function() {
-    Hello.En.call(this);
+var En = require('./en.js');
+
+var Ja = function() {
+    En.call(this);
     this._greeting = '世界の皆さん、こんにちは！';
 }
 
-Hello.Ja.prototype = new Hello.En();
+Ja.prototype = new En();
+
+module.exports = Ja;

@@ -1,6 +1,10 @@
-Hello.Zh = function() {
-    Hello.En.call(this);
+var En = require('./en.js');
+
+var Zh = function() {
+    En.call(this);
     this._greeting = '世界的朋友们，你们好！';
 }
 
-Hello.Zh.prototype = new Hello.En();
+Zh.prototype = new En();
+
+module.exports = Zh;
