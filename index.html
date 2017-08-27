@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Hello, world</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="hello.js"></script>
+    <script src="hello-en.js"></script>
+    <script src="hello-ja.js"></script>
+    <script src="hello-zh.js"></script>
+    <script>
+        $(function(){
+            $('html').attr('lang', navigator.language);
+            $('body').append($('<h1>').text(Hello(navigator.language).say()));
+        });
+    </script>
+</head>
+<body></body>
+</html>
